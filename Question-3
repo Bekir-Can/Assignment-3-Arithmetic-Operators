@@ -1,0 +1,22 @@
+package day_4Assignment;
+
+public class question_3 {
+
+	public static void main(String[] args) {
+		/* Question-3
+
+		Write a Java program that displays the area of a rectangle with a width of 4.5 an
+		a height of 7.9 using the following formula: area = width * height */
+		
+		double rectangleArea;
+		double width = 4.5; 
+		double heigh = 7.9;
+		rectangleArea = width*heigh;
+		System.out.println(" The area of a rectangle is " + rectangleArea);
+		
+		
+		
+		
+	}
+
+}
