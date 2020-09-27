@@ -1,0 +1,37 @@
+package day_4Assignment;
+
+public class question_5 {
+
+	public static void main(String[] args) {
+		/*Question-5
+		 *Write a program that outputs the number of hours, minutes, and seconds that corresponds to
+		 input total seconds.Declare int variables inputSeconds, hours, minutes, seconds-Initialize 
+		 the inputSeconds -Using %(remainder) and / operators, find out how many whole hours, minutes 
+		 and seconds are in inputSeconds.sign values to the hours, minutes, seconds variables -Display
+		 the result:*/
+		
+				// 1 minutes  60 seconds 
+				// 1 hour  60 minutes 
+				// 1 hour  3600 seconds 
+				
+				// convert the seconds to minutes 
+				int totalSeconds = 3695;  // 1 hours, 1 minutes, and 35 seconds
+				int minutes , hours ; 
+			
+				minutes = totalSeconds / 60 / 60;
+				System.out.println("The minutes is " + minutes);
+				
+				int remaindSecond = totalSeconds%60;
+				System.out.println("The remaindSecond is " + remaindSecond);
+					
+				hours = totalSeconds/3600;
+				System.out.println("The Hours is " + hours);
+				 
+				System.out.println("************************************");
+				
+				System.out.println("The amount of the 3695 seconds is  " + hours +" hours " + minutes +" minutes "
+				+ remaindSecond + " seconds");
+		
+	}
+
+}
