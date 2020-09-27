@@ -1,0 +1,32 @@
+package day_4Assignment;
+
+public class question_4 {
+
+	public static void main(String[] args) {
+		/*Question-4
+
+		Declare 2 variables (Num1, Num2),
+		Swap values between Num1 and Num2
+		Display new values of Num1 and Num2 */
+		
+		int temp = 4;
+		int num1 = 4;
+		int num2 = 8;
+		
+		num1 = num2; 
+		num2 = num1 ;
+		num1 = temp;
+		
+		System.out.println("num1 : " + num2);
+		System.out.println("num2 : " + num1);
+		
+		
+		
+		
+		
+		
+		 
+		  	}
+	
+
+}
